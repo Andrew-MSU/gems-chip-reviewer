@@ -1,9 +1,9 @@
-# GEMS Argon v9.8a — Mobile Chip Reviewer & Trace Drawer (GitHub Pages Bundle)
+# GEMS Argon v9.9b — Mobile Chip Reviewer & Trace Drawer (GitHub Pages Bundle)
 
-Mobile-friendly interactive fault-trace review and drawing web app built on our active selected best submission **Argon v9.5a (`0.2948` Public LB, `id-328552`, `28,665 px` across `1,150` 8-connected fault strands)**.
+Mobile-friendly interactive fault-trace review and drawing web app built on our active selected best submission **Argon v9.9b (`0.2948` Public LB, `id-328552`, `28,665 px` across `1,150` 8-connected fault strands)**.
 
 ## Key Features & Mobile Gestures
-- **Visual Audit Favorability View (Default)**: Displays `220 × 220 px` (`22 × 22 km` at `100 m/px`) study-area chips across all major Basin & Range structural settings with the `inferno` multi-physics favorability (`q_comb`) surface, Known Faults (`existing_faults.tif`), SMU/NGDS Geothermal Hot Wells (`T ≥ 40°C` or `Grad ≥ 80°C/km`), and interactive `Argon v9.5a` vector strands.
+- **Visual Audit Favorability View (Default)**: Displays `220 × 220 px` (`22 × 22 km` at `100 m/px`) study-area chips across all major Basin & Range structural settings with the `inferno` multi-physics favorability (`q_comb`) surface, Known Faults (`existing_faults.tif`), SMU/NGDS Geothermal Hot Wells (`T ≥ 40°C` or `Grad ≥ 80°C/km`), and interactive `Argon v9.9b` vector strands.
 - **Long-Press Anywhere on Screen → Switch Basemap to Topography**:
   - Holding your finger (or mouse button / `Spacebar`) anywhere on the chip immediately switches the basemap underneath the fault traces to **Shaded-Relief Topography** (`33 m` LiDAR/3DEP hillshade in Expert Zones D4/H1/J1, `100 m` trace-free shaded relief across the entire AOI offline, plus automatic live **USGS 3DEP Multidirectional Hillshade** overlay when online).
   - Tap **`⛰️ Hold=Topo`** in the top bar if you want to **Lock Topography ON** while drawing a trace.
@@ -20,7 +20,7 @@ Mobile-friendly interactive fault-trace review and drawing web app built on our 
    ```bash
    git init
    git add index.html .nojekyll README.md google_drive_sync_webapp.gs ingest_feedback_to_argon.py
-   git commit -m "Deploy GEMS Argon v9.5a Mobile Chip Reviewer"
+   git commit -m "Deploy GEMS Argon v9.9b Mobile Chip Reviewer"
    git branch -M main
    git remote add origin https://github.com/<your-username>/gems-chip-reviewer.git
    git push -u origin main
