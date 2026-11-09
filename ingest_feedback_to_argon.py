@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ingest Human Visual Audit Feedback (gems_v95a_chip_feedback.json) into Argon v9.5a (0.2948 LB)
+Ingest Human Visual Audit Feedback (gems_v95a_chip_feedback.json) into Argon v9.9b (0.2948 LB)
 ==============================================================================================
   - Protects all 'solid' (supported) strands from pruning
   - Removes or clips 'suspect' (rejected) strands
